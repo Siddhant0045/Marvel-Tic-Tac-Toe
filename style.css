@@ -23,7 +23,8 @@ h1{
 }
 
 #game-content-container{
-    margin-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-items: center;
