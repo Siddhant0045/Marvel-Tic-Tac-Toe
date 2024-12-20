@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-image: url("./images/marvel.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: "Marvel",serif;
+}
+
+h1{
+
+}
+
+#mainbody{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#game-content-container{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    place-items: center;
+    background-color: rgba(40, 46, 59, 0.966);
+    box-shadow: 3px 3px 5px 5px #333;
+    border-radius: 20px;
+    width: 1000px;
+}
+
+.gamebackground{
+    background-image: url("./images/comic-book-versus2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px blue;
+    font-weight: bolder;
+    height: 450px;
+    border-radius: 10px;
+    width: 900px;
+}
+
+#gametitle{
+    color: white;
+    text-shadow: 2px 1px red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#chooseyourcharacter{
+    font-size: 25px;
+    margin: 20px;
+}
+
+#twoplayer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.characters-grp{
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    grid-template-columns: 100px 100px;
+    background-color: rgb(174, 174, 174);
+    width: 215px;
+    height: 215px;
+    gap: 5px;
+    margin: 10px;
+}
+
+.character{
+    background-image: url("./images/yellow-comic.jpg");
+    background-position: top;
+    height: 100px;
+    width: 100px;
+
+}
+
+.align-center{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+h4{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    margin: 20px;
+}
+
+#playervsplayer{
+    background-image: url(./images/comic-book-versus2.jpg);
+    background-position: 250px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+#playbtnbtn{
+    background-image: url(./images/comic-book-versus2.jpg);
+    background-position: -250px;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.character button{
+    border: none;
+    background-image: url("./images/yellow-comic.jpg");
+    background-position: top;
+    height: 100px;
+    width: 100px;
+}
+
+img{
+    height: 80px;
+}
+
+.hidden{
+    display: none;
+}
+
+.ongoing-game{
+    display: grid;
+    grid-template-rows: auto 50px;
+    place-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 450px;
+    margin-top: 20px;
+}
+
+.xyz{
+    width: 320px;
+    background-color: black;
+    height: 320px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 5px;
+    place-content: center;
+    justify-content: center;
+}
+
+#game-result{
+    place-self:center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.divbtn:hover{
+    cursor: pointer;
+}
